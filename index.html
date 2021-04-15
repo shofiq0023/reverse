@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Reverse text</title>
+    <script src="main.js" defer></script>
+    <style>
+        input{
+            width: 612px;
+            padding: 10px;
+        }
+        input::placeholder{
+            font-size: 18px;
+        }
+        h1{
+            font-size: 42px;
+            text-transform: capitalize;
+        }
+        p{
+            border: 2px solid black;
+            display: inline-block;
+            padding: 5px 10px;
+            cursor: pointer;
+        }
+    </style>
+</head>
+<body>
+    <form id="input-form">
+        <input type="text" placeholder="Your text..." id="input">
+    </form>
+    <h1 id="output">Result here</h1>
+</body>
+</html>
